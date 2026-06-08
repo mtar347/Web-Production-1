@@ -1,0 +1,68 @@
+/* this is a comment in css */
+/* this is how you take notes in code */
+
+
+/*css follows this structure:
+selector {
+		property: value;
+}
+*/
+body{
+	background-color: forestgreen;
+	font-family: monospace;
+
+}
+
+p {
+background-color: hotpink;
+font-size: 24pt;
+/*color is text color*/
+color: white;
+}
+/*class works on multple elements while id works for only one element*/
+.notification{
+	border: 6px dashed lightgrey;
+	margin-bottom: 20px;
+}
+
+/*being more specific which div*/
+/*because css prioritizes higher specificity 
+this will overide the previous styling
+this will apply to any element that looks like class notification warning*/ 
+.notification.warning {
+	border-color: orange;
+	background-color: orangered;
+
+}
+/*id has the highest priority*/
+#blue{
+	background-color: skyblue;
+	color: blueviolet;
+	/*adjust the width so background only cover text*/
+	width: fit-content;
+	/*margin-top: 50px;*/
+	/*margin: 50px;*/
+	margin: 50px 8px 100px 75px;
+}
+/*id are the most specific item sice they can only be applied once per page*/
+#first{
+	background-color: greenyellow;
+
+}
+.highlight{
+	background-color: yellow;
+}
+.blazeorange{
+	background-color: #fe5700;
+}
+
+.olive{
+	background-color: #988f2a;
+}
+/*add the same rules to mutlple selectors by using a ,
+these div without content wont show up without a specificed width and height*/
+.blazeorange, .olive{
+	width: 200px;
+	height: 200px;
+}
+/*1 em = 16 px*/

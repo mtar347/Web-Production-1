@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # single hashtag is h1
 ## double hashtag is h2
 ### triple hashtag is h3

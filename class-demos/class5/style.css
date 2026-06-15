@@ -1,0 +1,50 @@
+.container{
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	margin: 20px;
+	display: inline-block;
+}
+body{
+	/*overflow-y: hidden;*/
+	/*remove scroll for a page*/
+	font-family: monospace;
+
+
+}
+/*syntax grab the divs that are the children of .container class on div*/
+div.container > div, .sticky-child{
+	width: 75px;
+	height: 75px;
+	background-color: pink;
+
+}
+.static-child{
+	/*this is the default*/
+	position: static;
+}
+.relative-child, .relative-parent{
+	position: relative;
+}
+
+.absolute-child{
+	position: absolute;
+	top: 100px;
+	left: 0;
+}
+/*specify the exact position position from top and units from left*/
+.down-under{
+	position: absolute;
+	top: 1000px;
+}
+.fixed-child{
+	position: fixed;
+}
+.sticky-child{
+	position: sticky;
+	top: 510px;
+	z-index: -999;
+}
+.big-container > img{
+	z-index: 999;
+}

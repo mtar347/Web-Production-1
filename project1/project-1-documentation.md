@@ -15,5 +15,5 @@ When adjusting the span text the issue when making it for the art 2 page to make
 4. references:
 * [CSS The display Property](https://www.w3schools.com/css/css_display.asp)
 *[Responsive Image Gallery](https://www.w3schools.com/css/tryit.asp?filename=trycss_image_gallery_responsive)
-*[use of Google AI](assets/ai2.png)
+*![use of Google AI](assets/ai2.png)
 *[How to Fix CSS Not Working in Your Website 👌 | Website CSS Not Updating Fix | HTML and CSS Tutorial by Dani Krossing](https://www.youtube.com/watch?v=F8vORrGWl-g)

@@ -4,10 +4,10 @@
 The inspiration of this site was to understand how to present my art and display it in a way that shows I have an understanding of the positioning using margins and tags. I made the site mainly with a simple diagram that would fit within the page without scrolling. 
 
 2. sketches:
-*![diagram](assets/diagram-main.jpg)
+*![diagram](assets/diagram-main.jpeg)
 
 
-*![diagram](assets/diagram-sub.jpg)
+*![diagram](assets/diagram-sub.jpeg)
 
 The idea was mainly to show 4 pieces of digital drawn art and explain each piece and the process behind it in their own web page.
 

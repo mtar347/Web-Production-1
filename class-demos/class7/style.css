@@ -1,0 +1,49 @@
+body{
+	/*background: black;*/
+	background: linear-gradient(#b9d2b1, #fbacbe);
+	height: 100%;
+	margin: 0;
+
+}
+p{
+	width: 30%;
+	/*one solution to show contrast between text and background*/
+	background-color: slategray;
+	display: inline-block;
+	padding-left: 10px;
+}
+p.child{
+	/*traspanrent removes inherited css background color*/
+	background-color: transparent;	
+}
+
+div{
+	/* appends a transparent value to hex with the last 2 chars */
+	background-color: #eafde633;
+}
+div.transparent-block{
+	position: absolute;
+	top: 75px;
+	left: 300px;
+	width: 300px;
+	height: 50px;
+}
+.div-with-link{
+	text-align: center;
+	font-size: 50px;
+}
+
+a:visited {
+	text-decoration-color: transparent;
+	color: #fbacbe;
+}
+a:hover{
+background: yellow;
+}
+
+/*you want all links visited or not to have the same style a:link, a:visited*/
+a:link {
+	color: #b9d2b1;
+	/*text decomration can only be modified on the :link*/
+ text-decoration: none;
+}

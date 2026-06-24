@@ -1,0 +1,42 @@
+
+body{
+
+	/*this applies to zoom*/
+	font-size: 1rem;
+}
+/*adding a view port in html meta for testin*/
+@media screen and (width < 600px){
+	body{
+		font-size: 2rem;
+	}
+}
+@media screen and (width >= 600px) and (width < 992px){
+	body{
+		font-size: 1.5rem;
+	}
+}
+/*display of flexgoes on the parent container*/
+.parent-container{
+	display: flex;
+	flex-direction: row;
+	/*holy grail of centering items on a page*/
+	justify-content: center;
+	align-items: center;
+	/*i want to center on the entire page*/
+	height: 100%;
+	gap: 30px;
+}
+/*havent manipulated the child*/
+span{
+	background: #08bdbd;
+	color: #abff4f;
+	/*we can align */
+	text-align: center;
+}
+.smaller{
+	flex-grow: 1;
+}
+/*the flew grow on the bigger will be whtever size x number will be  exple. 2x the normal size "smaller. based on a ratio*/
+.bigger{
+	flex-grow: 2;
+}

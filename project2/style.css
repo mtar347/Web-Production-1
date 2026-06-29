@@ -1,0 +1,107 @@
+body{
+	width: 100%;
+	height: 100%;
+	font-family: monospace;
+	font-size: 1rem;
+	background: #52380b;
+	margin: 0;
+	box-sizing: border-box;
+
+	/*the element will be flex column item*/
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+}
+nav{
+	background: #abff4f;
+	width: 100%;
+
+	display: flex;
+	justify-content: space-around;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+/*is both flex container and flex child of the body*/
+.content{
+	display: flex;
+	flex-direction: row;
+	height: 90%;
+	flex-grow: 4;
+}
+aside{
+	flex-grow: 1;
+	background: #29bf12;
+}
+@media screen and (width < 600px){
+	aside{
+		display: none;
+	}
+}
+main{
+	flex-grow: 3;
+	background: #ff9914;
+}
+footer{
+	background: #f21b3f;
+}
+.mb{
+	height: 60%;
+	width: 100%;
+	padding-top: 100px;
+	padding-left: 1px;
+	padding-right: 1px;
+
+}
+.ftb{
+	width: 70%;
+	height: 150px;
+	align-content: center;
+}
+.mc{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.fc{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 200px;
+	padding-bottom: 10px;
+	background: #52380b;
+}
+.ali{
+	width: 90%;
+	height: 100%;
+	padding-right: 10px;
+	padding-left: 10px;
+
+}
+.arc{
+	width: 100%;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	justify-content: center;
+	align-items: center;
+
+
+}
+.ari{
+	width: 90%;
+	height: 100%;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.alc{
+	width: 100%;
+		padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	justify-content: center;
+	align-items: center;
+
+}

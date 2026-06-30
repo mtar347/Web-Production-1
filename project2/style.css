@@ -3,14 +3,12 @@ body{
 	height: 100%;
 	font-family: monospace;
 	font-size: 1rem;
-	background: #52380b;
+	background:linear-gradient(skyblue,#8b4422bd,burlywood);
 	margin: 0;
-	box-sizing: border-box;
-
 	/*the element will be flex column item*/
 	display: flex;
 	flex-direction: column;
-	padding: 20px;
+	overflow: none;
 }
 nav{
 	background: #abff4f;
@@ -18,8 +16,6 @@ nav{
 
 	display: flex;
 	justify-content: space-around;
-	padding-top: 20px;
-	padding-bottom: 20px;
 }
 /*is both flex container and flex child of the body*/
 .content{
@@ -30,78 +26,205 @@ nav{
 }
 aside{
 	flex-grow: 1;
-	background: #29bf12;
+	width: 10%;
+
 }
-@media screen and (width < 600px){
-	aside{
-		display: none;
-	}
-}
+
 main{
 	flex-grow: 3;
-	background: #ff9914;
+	justify-content: center;
 }
+
 footer{
 	background: #f21b3f;
 }
+h4{
+	text-align: center;
+	background: #a46e27;
+	color: #5000ffd6;
+	background-position: center;
+	background-size: flex;
+		font-family: cursive;
+}
 .mb{
-	height: 60%;
+	height: 57%;
 	width: 100%;
-	padding-top: 100px;
-	padding-left: 1px;
-	padding-right: 1px;
 
 }
+.mb2{
+	height: 100%;
+	width: 100%;
+}
 .ftb{
-	width: 70%;
-	height: 150px;
-	align-content: center;
+
+	width: 134px;
+	height: 164px;
 }
 .mc{
 	display: flex;
+	align-items: baseline;
+	height: 283px;
 	justify-content: center;
-	align-items: center;
+}
+.mc2{
+	display: flex;
+	align-items: baseline;
+	height: 223px;
+	justify-content: center;
+}
+.mc3{
+	display: inline-flex;
+	align-items: baseline;
+	height: 16px;
+	justify-content: unset;
+	align-items: last baseline;
+	width: 472px;
+	padding-left: 26%;
 }
 .fc{
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	display: grid;
+	grid-template-rows: 43px;
+	grid-template-columns: repeat(4, 50px);
 	width: 100%;
-	height: 200px;
-	padding-bottom: 10px;
-	background: #52380b;
+	height: 162px;
+	justify-content: space-around;
+	align-items: self-end;
+	gap: 10px;
+
+	background-image: url("pics/wood.jpg");
+	/*change too wood*/
+
 }
 .ali{
-	width: 90%;
+	width: 100%;
 	height: 100%;
-	padding-right: 10px;
-	padding-left: 10px;
 
 }
 .arc{
-	width: 100%;
-	padding-right: 10px;
-	padding-left: 10px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	justify-content: center;
-	align-items: center;
+	width: 297px;
+	height: 520px;
+	display: flex;
 
 
 }
 .ari{
-	width: 90%;
-	height: 100%;
-	padding-right: 10px;
-	padding-left: 10px;
+	width: 100%;
+	height: 524px;
 }
 .alc{
-	width: 100%;
-		padding-right: 10px;
-	padding-left: 10px;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	width: 303px;
+	height: 523px;
+	display: flex;
+
+}
+
+
+@media screen and (width < 600px){
+	aside{
+		display: none;
+	}
+	body{
+			width: 412px;
+	height: 956px;
+	font-family: monospace;
+	font-size: 1rem;
+	background:linear-gradient(skyblue,#8b4422bd,burlywood);
+	margin: 0px;
+	/*the element will be flex column item*/
+	display: flex;
+	flex-direction: column;
+	/*! overflow: none; */
+	/*! margin-bottom: 0; */
+	}
+	nav{
+	background: #abff4f;
+	width: 599px;
+
+	display: flex;
+	justify-content: space-around;
+}
+
+	.content{
+	display: flex;
+	flex-direction: row;
+	height: 30%;
+	flex-grow: 4;
+}
+main{
+	flex-grow: 3;
 	justify-content: center;
-	align-items: center;
+}
+footer{
+	background: #f21b3f;
+}
+
+h4{
+	text-align: center;
+	background: #a46e27;
+	color: #5000ffd6;
+	background-position: center;
+	background-size: flex;
+	font: sans-serif;
+		width: 356px;
+		height: 129px;
+}
+
+.mb{
+	height: 57%;
+	width: 100%;
+
+}
+.mb2{
+	height: 100%;
+	width: 100%;
+}
+
+.ftb{
+
+	width: 131px;
+	height: 147px;
+	/*! padding-left: 146px; */
+	/*! padding: 80px; */
+}
+
+.mc{
+	display: flex;
+	align-items: baseline;
+	height: 252px;
+	justify-content: center;
+	width: 600px;
+}
+
+.mc2{
+	display: flex;
+	align-items: baseline;
+	height: 223px;
+	justify-content: center;
+}
+
+.mc3{
+	display: inline-flex;
+	align-items: baseline;
+	height: 37px;
+	justify-content: unset;
+	align-items: last baseline;
+	width: 462px;
+	padding-left: 22%;
+}
+.fc{
+	display: grid;
+	grid-template-rows: 171px;
+	grid-template-columns: repeat(2, 10px);
+	width: 600px;
+	height: 449px;
+	justify-content: space-around;
+	align-items: self-end;
+	gap: 20px;
+
+	background-image: url("pics/wood.jpg");
+	/*change too wood*/
+
+	/*! padding-left: 7px; */
+}
 
 }

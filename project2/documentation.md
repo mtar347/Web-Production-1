@@ -6,8 +6,8 @@
 ## Sketches
 *![diagram](pics/outline.jpeg)
 *![diagram](pics/back1.jpeg)
-*![diagram](pics/back1.jpeg)
-*![diagram](pics/back1.jpeg)
+*![diagram](pics/back2.jpeg)
+*![diagram](pics/back3.jpeg)
 > Include any sketches you made *before* you started coding
 
 ## Technical Process

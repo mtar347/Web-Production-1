@@ -27,3 +27,4 @@
 *https://www.w3schools.com/css/css_align_horizontal.asp
 *https://www.w3schools.com/css/css_background_image.asp
 *https://www.w3schools.com/css/css3_mediaqueries_ex.asp
+*  google ai ![diagram](pics/googleai.png)

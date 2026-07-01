@@ -124,9 +124,14 @@ h4{
 	aside{
 		display: none;
 	}
+	html{
+		height: 100vh;
+		overflow: hidden;
+	}
 	body{
 			width: 412px;
-	height: 956px;
+	height: 100vh;
+	overflow: hidden;
 	font-family: monospace;
 	font-size: 1rem;
 	background:linear-gradient(skyblue,#8b4422bd,burlywood);
@@ -139,7 +144,7 @@ h4{
 	}
 	nav{
 	background: #abff4f;
-	width: 599px;
+	width: 446px;
 
 	display: flex;
 	justify-content: space-around;
@@ -171,7 +176,7 @@ h4{
 }
 
 .mb{
-	height: 57%;
+	height: 58%;
 	width: 100%;
 
 }
@@ -182,7 +187,7 @@ h4{
 
 .ftb{
 
-	width: 131px;
+	width: 125px;
 	height: 147px;
 	/*! padding-left: 146px; */
 	/*! padding: 80px; */
@@ -193,34 +198,34 @@ h4{
 	align-items: baseline;
 	height: 252px;
 	justify-content: center;
-	width: 600px;
+	width: 417px;
 }
 
 .mc2{
 	display: flex;
 	align-items: baseline;
-	height: 223px;
+	height: 308px;
 	justify-content: center;
 }
 
 .mc3{
 	display: inline-flex;
 	align-items: baseline;
-	height: 37px;
+	height: 4px;
 	justify-content: unset;
 	align-items: last baseline;
-	width: 462px;
-	padding-left: 22%;
+	width: 455px;
+	padding-left: 9%;
 }
 .fc{
 	display: grid;
 	grid-template-rows: 171px;
-	grid-template-columns: repeat(2, 10px);
-	width: 600px;
-	height: 449px;
+	grid-template-columns: repeat(2, 100px);
+	width: 416px;
+	height: 341px;
 	justify-content: space-around;
 	align-items: self-end;
-	gap: 20px;
+	gap: 17px;
 
 	background-image: url("pics/wood.jpg");
 	/*change too wood*/

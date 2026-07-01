@@ -12,7 +12,7 @@
 
 ## Technical Process
 
-> I was experimenting the layout as if the backyard pics are arches and the middle is a bar and a table with beers being refilled and emptied. The positioning of the beers and the text was a pain for the ohone version and the site due to the div blocks mixing with the over lapping images.
+> I was experimenting the layout as if the backyard pics are arches and the middle is a bar and a table with beers being refilled and emptied. The positioning of the beers and the text was a pain for the ohone version and the site due to the div blocks mixing with the over lapping images. and to fill in the bottom area with items but got lost in the research trying to make it look better.
 > 
 > ![diagram](pics/edit.gif)
 ![diagram](pics/phones.png) 
@@ -26,3 +26,4 @@
 *https://www.are.na/rachel-steele/music-gig-posters-efsmeujirc4
 *https://www.w3schools.com/css/css_align_horizontal.asp
 *https://www.w3schools.com/css/css_background_image.asp
+*https://www.w3schools.com/css/css3_mediaqueries_ex.asp

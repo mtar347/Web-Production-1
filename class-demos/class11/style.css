@@ -1,0 +1,12 @@
+/*style all p tags*/
+p{
+	font-family: monospace;
+}
+
+.red-paragraph{
+	background: red;
+	color: gold;
+}
+#big-paragraph{
+	font-size: 40px;
+}

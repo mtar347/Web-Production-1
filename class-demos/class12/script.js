@@ -2,16 +2,18 @@
 // Write it below this line.
 window.addEventListener("load", ()=>{
 
-// Inside of the function, retrieve the id of the div you created in index.html and assign it to a variable.
-let con = document.getElementById('container')
+	// Inside of the function, retrieve the id of the div you created in index.html and assign it to a variable.
+	let con = document.getElementById('container')
 
-// add event listenr that detects when the conatiner is hovered over with the mouse using the mouseenter
-con.addEventListener("mouseenter", ()=>{
-	con.style.backgroundColor = "#c0d6df"
+	// add event listenr that detects when the conatiner is hovered over with the mouse using the mouseenter
+	con.addEventListener("mouseenter", ()=>{
+		con.style.backgroundColor = "#c0d6df"
+	})
+	con.addEventListener("mouseleave", () =>{
+		con.style.backgroundColor = "#dd6e42"
+	})
 })
-con.addEventListener("mouseleave", () =>{
-	con.style.backgroundColor = "#dd6e42"
-})
+
 // Q: What is another way to write the first line of code? 
 // A:// window.onload = () =>{}
 
@@ -20,4 +22,4 @@ con.addEventListener("mouseleave", () =>{
 
 // Q: What is the property we access to change the style of a selected element in js? How would we change the background color of the div we selected?
 // A:document.querySelector().style.backgroundColor = '# '
-}
+
